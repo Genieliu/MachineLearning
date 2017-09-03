@@ -1,7 +1,12 @@
+#!/usr/bin/python
 
-# coding: utf-8
+# this py file use python3.6
 
-# In[1]:
+# how to test this algorithm. 
+# put iris.txt and kNN.py together
+# $chmod +x kNN.py
+# $./kNN.py 
+#
 
 from numpy import *
 import operator
@@ -90,3 +95,4 @@ def classifyIrsi():
 
 #test
 if __name__ == "__main__":
+    irisClassTest()
