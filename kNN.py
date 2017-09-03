@@ -1,12 +1,12 @@
 #!/usr/bin/python
-
-# this py file use python3.6
-
-# how to test this algorithm. 
-# put iris.txt and kNN.py together
-# $chmod +x kNN.py
-# $./kNN.py 
-#
+"""
+    This is the kNN algorithm
+    this py file use python3.6
+    how to test this algorithm
+    put iris.txt and kNN.py together
+    $chmod +x kNN.py
+    $./kNN.py 
+"""
 
 from numpy import *
 import operator
